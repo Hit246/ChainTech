@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Account Manager (React)</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- React 18 via CDN (satisfies React v16+) -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- For older browsers' URL/hash APIs -->
+    <script>
+      // Tiny polyfill guard (no-op for modern browsers)
+      window.__APP__ = {};
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
+
+
