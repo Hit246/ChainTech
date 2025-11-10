@@ -9,7 +9,7 @@ Data is stored in `localStorage` in your browser. This is for demo purposes only
 
 ### How to run
 1. Open the folder:
-   - `C:\Users\JAY SHREE RAM\Desktop\New folder (2)\`
+   - `From Your Folder location`
 2. Double‑click `index.html` to open it in your browser.
    - Alternatively, right‑click and choose “Open with” your preferred browser.
 
